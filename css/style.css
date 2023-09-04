@@ -1,0 +1,148 @@
+body{
+	background-color: #f4f4f4;
+	font-family: Arial, Helvetical, sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+.button-1{
+	height: 37px;
+	background-color: #e8491d;
+	border: 0px;
+	color: #ffffff;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+.dark{
+	padding: 15px;
+	background-color:#35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+header{
+	padding-top: 20px;
+	min-height: 70px;
+	color: #ffffff;
+	background-color: #35424a;
+	border-bottom: 5px orangered solid;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float: left;
+}
+header nav{
+	float: right;
+	margin-top: 10px ;
+}
+header .hightlight, header .current a{
+	color: orangered;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: gray;
+}
+#showcase{
+	min-height: 200px;
+	background: url('../img/showcase1.jpeg')no-repeat 0 -500px; 
+	color: #ffffff;
+	background-size: 100%;
+}
+#showcase h1{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+#showcase p{
+	font-size: 15px;
+}
+#newsletter{
+	background-color: #35424a;
+	color: #ffffff;
+}
+#newsletter h1{
+	float: left;
+
+}
+#newsletter form{
+	float: right;
+	margin-top: 10px;
+	
+}
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+#boxes .box img{
+	width: 80px;
+}
+aside#side-bar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+aside#side-bar .quote input, aside#side-bar textarea
+{
+	width: 90%;
+}
+article#main-col{
+	float: left;
+	width: 65%;
+}
+ul#service{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background-color: #f4f4f4;
+}
+ul#service li{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #cccccc;
+} 
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	background-color: orangered;
+	color: #ffffff;
+}
+
+
+
+
+
